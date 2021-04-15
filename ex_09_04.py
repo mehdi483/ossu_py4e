@@ -11,7 +11,7 @@ senders = dict()
 
 for line in handle:
     if line.startswith("From "):
-        words = line.split()
+        words = line.rstrip().split()
         sender = words[1]
         senders[sender] = senders.get(sender, 0) + 1
 
