@@ -1,3 +1,5 @@
+# In this assignment you will write a Python that will prompt for a URL, read the XML data from that URL using urllib and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
+
 import xml.etree.ElementTree as et, urllib.request
 
 xmlUrl = input("Please enter URL of the xml file: ")
