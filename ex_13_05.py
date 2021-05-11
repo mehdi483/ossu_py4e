@@ -10,8 +10,6 @@ except:
 
 data = req.read().decode()
 
-# print(data)
-
 try:
     xmlData = et.fromstring(data)
 except:
