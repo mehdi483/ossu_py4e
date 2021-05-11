@@ -16,6 +16,7 @@ try:
     xmlData = et.fromstring(data)
 except:
     print("Entered URL does not contain a valid xml")
+    quit()
 
 countElements = xmlData.findall('./comments/comment/count')
 
